@@ -1,0 +1,65 @@
+body {
+    text-align: center;
+}
+
+li {
+    display: inline;
+    margin: 5px;
+}
+
+.header {
+    text-align: right;
+    margin: 15px;
+}
+
+.midCont {
+    text-align: center;
+    display: block;
+    position: relative;
+    top: 200px;
+}
+
+#searchBar {
+    border: 1px solid hsl(0, 5%, 80%);
+    border-radius: 50px;
+    width : 630px;
+    height: 50px;
+    margin : auto;
+    margin-top: 25px;
+}
+
+input[type="text"] {
+    border-color: transparent;
+    width: 600px;
+    height: 35px;
+    margin-top: 5px;
+}
+
+.button {
+    position: relative;
+    top: 230px;
+    display: inline;    
+}
+
+#foot {
+    position: fixed;
+    bottom: 0px;
+    display: block;
+    text-align: left;
+    width: 100%;
+}
+
+.footer {
+    padding: 15px;
+    background-color: hsl(0, 5%, 95%);
+    border: 1px solid hsl(0, 5%, 90%);
+    color: grey;
+}
+
+.footer ul {
+    display: inline;
+}
+
+span {
+    float: right;
+}
